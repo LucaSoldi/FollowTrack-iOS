@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E01C928203360540045DB19 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E01C927203360540045DB19 /* TripDetailViewController.swift */; };
+		6E0E2CB81E4F3F3400A889CF /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E2CB71E4F3F3400A889CF /* Socket.swift */; };
+		6E0E2CBA1E4F838700A889CF /* FollowPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E2CB91E4F838700A889CF /* FollowPin.swift */; };
+		6E65DC891E51C81C003BBFF6 /* TripEndedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DC881E51C81C003BBFF6 /* TripEndedViewController.swift */; };
+		6E65DC8C1E51EDD5003BBFF6 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DC8B1E51EDD5003BBFF6 /* MainTableViewController.swift */; };
+		6E65DCA21E521862003BBFF6 /* Coordinate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DC9E1E521862003BBFF6 /* Coordinate+CoreDataClass.swift */; };
+		6E65DCA31E521862003BBFF6 /* Coordinate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DC9F1E521862003BBFF6 /* Coordinate+CoreDataProperties.swift */; };
+		6E65DCA41E521862003BBFF6 /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DCA01E521862003BBFF6 /* Trip+CoreDataClass.swift */; };
+		6E65DCA51E521862003BBFF6 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DCA11E521862003BBFF6 /* Trip+CoreDataProperties.swift */; };
+		6E65DCA71E5225A3003BBFF6 /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DCA61E5225A3003BBFF6 /* TripsTableViewController.swift */; };
+		6E65DCAA1E526485003BBFF6 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65DCA91E526485003BBFF6 /* TripTableViewCell.swift */; };
+		6E6D16C01E4DD231000C82D3 /* FollowMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D16BF1E4DD231000C82D3 /* FollowMeViewController.swift */; };
+		6E6D16C31E4DFBE8000C82D3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D16C21E4DFBE8000C82D3 /* Common.swift */; };
+		6E6D16C51E4E062D000C82D3 /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D16C41E4E062D000C82D3 /* FollowerViewController.swift */; };
+		6E7229161E577966003F75B2 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229151E577966003F75B2 /* ChatTableViewController.swift */; };
+		6E7229181E577C2F003F75B2 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229171E577C2F003F75B2 /* ChatTableViewCell.swift */; };
+		6E72291B1E578322003F75B2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E72291A1E578322003F75B2 /* ChatViewController.swift */; };
+		6E918B211E4CBC5F00C99346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E918B201E4CBC5F00C99346 /* AppDelegate.swift */; };
+		6E918B231E4CBC5F00C99346 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E918B221E4CBC5F00C99346 /* MainViewController.swift */; };
+		6E918B261E4CBC5F00C99346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E918B241E4CBC5F00C99346 /* Main.storyboard */; };
+		6E918B291E4CBC5F00C99346 /* FollowTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E918B271E4CBC5F00C99346 /* FollowTrack.xcdatamodeld */; };
+		6E918B2B1E4CBC5F00C99346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E918B2A1E4CBC5F00C99346 /* Assets.xcassets */; };
+		6E918B2E1E4CBC5F00C99346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E918B2C1E4CBC5F00C99346 /* LaunchScreen.storyboard */; };
+		6E918B391E4CBC5F00C99346 /* FollowTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E918B381E4CBC5F00C99346 /* FollowTrackUITests.swift */; };
+		6EB1B8921E4CC1B6005D409C /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1B8911E4CC1B6005D409C /* RestApi.swift */; };
+		6EB1B8971E4CC2AC005D409C /* Graphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1B8961E4CC2AC005D409C /* Graphics.m */; };
+		6EB1B89B1E4CE378005D409C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1B89A1E4CE378005D409C /* UIColor.swift */; };
+		6EB1B89D1E4CE3B5005D409C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1B89C1E4CE3B5005D409C /* String.swift */; };
+		6EB1B8A01E4DB638005D409C /* UIGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1B89F1E4DB638005D409C /* UIGraphics.swift */; };
+		6EB1B8A21E4DB947005D409C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1B8A11E4DB947005D409C /* UIButton.swift */; };
+		6ED1C41E1E4E1521007AC351 /* FollowMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1C41D1E4E1521007AC351 /* FollowMapViewController.swift */; };
+		7896E0DC99439F922916DC7F /* Pods_FollowTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004EAE51693D6285C56C5E2A /* Pods_FollowTrack.framework */; };
+		D009F548ECD9F50B223EAB19 /* Pods_FollowTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D954FCBB4319A92205A5C5 /* Pods_FollowTrackUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E918B351E4CBC5F00C99346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E918B151E4CBC5F00C99346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E918B1C1E4CBC5F00C99346;
+			remoteInfo = FollowTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004EAE51693D6285C56C5E2A /* Pods_FollowTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FollowTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170FDD94574C806BB7B060E7 /* Pods-FollowTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FollowTrack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FollowTrack/Pods-FollowTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		400A883FA8BDDC5A9CA5105A /* Pods-FollowTrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FollowTrackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FollowTrackUITests/Pods-FollowTrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		485629CD11D96CB6C561D9F3 /* Pods-FollowTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FollowTrackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FollowTrackUITests/Pods-FollowTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5836C82CF92BD9E524D197B0 /* Pods-FollowTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FollowTrack.release.xcconfig"; path = "Pods/Target Support Files/Pods-FollowTrack/Pods-FollowTrack.release.xcconfig"; sourceTree = "<group>"; };
+		6E01C927203360540045DB19 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		6E0E2CB71E4F3F3400A889CF /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		6E0E2CB91E4F838700A889CF /* FollowPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowPin.swift; sourceTree = "<group>"; };
+		6E65DC881E51C81C003BBFF6 /* TripEndedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripEndedViewController.swift; sourceTree = "<group>"; };
+		6E65DC8B1E51EDD5003BBFF6 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		6E65DC9E1E521862003BBFF6 /* Coordinate+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coordinate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6E65DC9F1E521862003BBFF6 /* Coordinate+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coordinate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6E65DCA01E521862003BBFF6 /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6E65DCA11E521862003BBFF6 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6E65DCA61E5225A3003BBFF6 /* TripsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
+		6E65DCA91E526485003BBFF6 /* TripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		6E6D16BF1E4DD231000C82D3 /* FollowMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowMeViewController.swift; sourceTree = "<group>"; };
+		6E6D16C21E4DFBE8000C82D3 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		6E6D16C41E4E062D000C82D3 /* FollowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
+		6E7229151E577966003F75B2 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		6E7229171E577C2F003F75B2 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		6E72291A1E578322003F75B2 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6E918B1D1E4CBC5F00C99346 /* FollowTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E918B201E4CBC5F00C99346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E918B221E4CBC5F00C99346 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6E918B251E4CBC5F00C99346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E918B281E4CBC5F00C99346 /* FollowTrack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FollowTrack.xcdatamodel; sourceTree = "<group>"; };
+		6E918B2A1E4CBC5F00C99346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E918B2D1E4CBC5F00C99346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E918B2F1E4CBC5F00C99346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E918B341E4CBC5F00C99346 /* FollowTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E918B381E4CBC5F00C99346 /* FollowTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTrackUITests.swift; sourceTree = "<group>"; };
+		6E918B3A1E4CBC5F00C99346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB1B8911E4CC1B6005D409C /* RestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+		6EB1B8941E4CC2AC005D409C /* FollowTrack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FollowTrack-Bridging-Header.h"; sourceTree = "<group>"; };
+		6EB1B8951E4CC2AC005D409C /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+		6EB1B8961E4CC2AC005D409C /* Graphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphics.m; sourceTree = "<group>"; };
+		6EB1B89A1E4CE378005D409C /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6EB1B89C1E4CE3B5005D409C /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6EB1B89F1E4DB638005D409C /* UIGraphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGraphics.swift; sourceTree = "<group>"; };
+		6EB1B8A11E4DB947005D409C /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		6ED1C41D1E4E1521007AC351 /* FollowMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowMapViewController.swift; sourceTree = "<group>"; };
+		E9D954FCBB4319A92205A5C5 /* Pods_FollowTrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FollowTrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E918B1A1E4CBC5F00C99346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7896E0DC99439F922916DC7F /* Pods_FollowTrack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E918B311E4CBC5F00C99346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D009F548ECD9F50B223EAB19 /* Pods_FollowTrackUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9FF527A1FE49026A351C35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				170FDD94574C806BB7B060E7 /* Pods-FollowTrack.debug.xcconfig */,
+				5836C82CF92BD9E524D197B0 /* Pods-FollowTrack.release.xcconfig */,
+				400A883FA8BDDC5A9CA5105A /* Pods-FollowTrackUITests.debug.xcconfig */,
+				485629CD11D96CB6C561D9F3 /* Pods-FollowTrackUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E01C91B203348DD0045DB19 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		6E65DC8A1E51C823003BBFF6 /* Trip Ended */ = {
+			isa = PBXGroup;
+			children = (
+				6E65DC881E51C81C003BBFF6 /* TripEndedViewController.swift */,
+			);
+			name = "Trip Ended";
+			sourceTree = "<group>";
+		};
+		6E65DC8D1E51FBE0003BBFF6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6E918B221E4CBC5F00C99346 /* MainViewController.swift */,
+				6E65DC8B1E51EDD5003BBFF6 /* MainTableViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		6E65DCA81E525AA2003BBFF6 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				6E65DCA61E5225A3003BBFF6 /* TripsTableViewController.swift */,
+				6E01C927203360540045DB19 /* TripDetailViewController.swift */,
+			);
+			name = Trips;
+			sourceTree = "<group>";
+		};
+		6E65DCAB1E52648D003BBFF6 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6E65DCA91E526485003BBFF6 /* TripTableViewCell.swift */,
+				6E7229171E577C2F003F75B2 /* ChatTableViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		6E6D16C11E4DD434000C82D3 /* FollowMe */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D16BF1E4DD231000C82D3 /* FollowMeViewController.swift */,
+			);
+			name = FollowMe;
+			sourceTree = "<group>";
+		};
+		6E7229191E577CEA003F75B2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				6E72291A1E578322003F75B2 /* ChatViewController.swift */,
+				6E7229151E577966003F75B2 /* ChatTableViewController.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		6E918B141E4CBC5F00C99346 = {
+			isa = PBXGroup;
+			children = (
+				6E918B1F1E4CBC5F00C99346 /* FollowTrack */,
+				6E918B371E4CBC5F00C99346 /* FollowTrackUITests */,
+				6E918B1E1E4CBC5F00C99346 /* Products */,
+				5A9FF527A1FE49026A351C35 /* Pods */,
+				7DE8CEDFEDBD1AFD6703ACCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E918B1E1E4CBC5F00C99346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E918B1D1E4CBC5F00C99346 /* FollowTrack.app */,
+				6E918B341E4CBC5F00C99346 /* FollowTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E918B1F1E4CBC5F00C99346 /* FollowTrack */ = {
+			isa = PBXGroup;
+			children = (
+				6E918B201E4CBC5F00C99346 /* AppDelegate.swift */,
+				6EB1B8931E4CC1BA005D409C /* API */,
+				6EB1B88E1E4CBDE3005D409C /* Controllers */,
+				6EB1B88B1E4CBDB4005D409C /* Core Data */,
+				6EB1B8981E4CC2B2005D409C /* Graphics */,
+				6EB1B88C1E4CBDC2005D409C /* UI */,
+				6EB1B89E1E4CE3BA005D409C /* Extensions */,
+				6E01C91B203348DD0045DB19 /* Utility */,
+				6EB1B88D1E4CBDD5005D409C /* Supporting Files */,
+				6E65DCAB1E52648D003BBFF6 /* Custom Cells */,
+			);
+			path = FollowTrack;
+			sourceTree = "<group>";
+		};
+		6E918B371E4CBC5F00C99346 /* FollowTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E918B381E4CBC5F00C99346 /* FollowTrackUITests.swift */,
+				6E918B3A1E4CBC5F00C99346 /* Info.plist */,
+			);
+			path = FollowTrackUITests;
+			sourceTree = "<group>";
+		};
+		6EB1B88B1E4CBDB4005D409C /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				6E65DC9E1E521862003BBFF6 /* Coordinate+CoreDataClass.swift */,
+				6E65DC9F1E521862003BBFF6 /* Coordinate+CoreDataProperties.swift */,
+				6E65DCA01E521862003BBFF6 /* Trip+CoreDataClass.swift */,
+				6E65DCA11E521862003BBFF6 /* Trip+CoreDataProperties.swift */,
+				6E918B271E4CBC5F00C99346 /* FollowTrack.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		6EB1B88C1E4CBDC2005D409C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6E918B241E4CBC5F00C99346 /* Main.storyboard */,
+				6E918B2C1E4CBC5F00C99346 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6EB1B88D1E4CBDD5005D409C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1B8941E4CC2AC005D409C /* FollowTrack-Bridging-Header.h */,
+				6E918B2A1E4CBC5F00C99346 /* Assets.xcassets */,
+				6E918B2F1E4CBC5F00C99346 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EB1B88E1E4CBDE3005D409C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E65DC8D1E51FBE0003BBFF6 /* Main */,
+				6E6D16C11E4DD434000C82D3 /* FollowMe */,
+				6ED1C41C1E4E1464007AC351 /* Follower */,
+				6ED1C41F1E4E154C007AC351 /* FollowMap */,
+				6E65DC8A1E51C823003BBFF6 /* Trip Ended */,
+				6E65DCA81E525AA2003BBFF6 /* Trips */,
+				6E7229191E577CEA003F75B2 /* Chat */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6EB1B8931E4CC1BA005D409C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1B8911E4CC1B6005D409C /* RestApi.swift */,
+				6E0E2CB71E4F3F3400A889CF /* Socket.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		6EB1B8981E4CC2B2005D409C /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1B8951E4CC2AC005D409C /* Graphics.h */,
+				6EB1B8961E4CC2AC005D409C /* Graphics.m */,
+				6EB1B89F1E4DB638005D409C /* UIGraphics.swift */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		6EB1B89E1E4CE3BA005D409C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D16C21E4DFBE8000C82D3 /* Common.swift */,
+				6EB1B89A1E4CE378005D409C /* UIColor.swift */,
+				6EB1B89C1E4CE3B5005D409C /* String.swift */,
+				6EB1B8A11E4DB947005D409C /* UIButton.swift */,
+				6E0E2CB91E4F838700A889CF /* FollowPin.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6ED1C41C1E4E1464007AC351 /* Follower */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D16C41E4E062D000C82D3 /* FollowerViewController.swift */,
+			);
+			name = Follower;
+			sourceTree = "<group>";
+		};
+		6ED1C41F1E4E154C007AC351 /* FollowMap */ = {
+			isa = PBXGroup;
+			children = (
+				6ED1C41D1E4E1521007AC351 /* FollowMapViewController.swift */,
+			);
+			name = FollowMap;
+			sourceTree = "<group>";
+		};
+		7DE8CEDFEDBD1AFD6703ACCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004EAE51693D6285C56C5E2A /* Pods_FollowTrack.framework */,
+				E9D954FCBB4319A92205A5C5 /* Pods_FollowTrackUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E918B1C1E4CBC5F00C99346 /* FollowTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E918B3D1E4CBC5F00C99346 /* Build configuration list for PBXNativeTarget "FollowTrack" */;
+			buildPhases = (
+				B6A1EACCB4302E48278C7C38 /* [CP] Check Pods Manifest.lock */,
+				6E918B191E4CBC5F00C99346 /* Sources */,
+				6E918B1A1E4CBC5F00C99346 /* Frameworks */,
+				6E918B1B1E4CBC5F00C99346 /* Resources */,
+				DA5803EAF89137B0D2EC094E /* [CP] Embed Pods Frameworks */,
+				53D73892642138AD9FD1AF9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FollowTrack;
+			productName = FollowTrack;
+			productReference = 6E918B1D1E4CBC5F00C99346 /* FollowTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E918B331E4CBC5F00C99346 /* FollowTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E918B401E4CBC5F00C99346 /* Build configuration list for PBXNativeTarget "FollowTrackUITests" */;
+			buildPhases = (
+				F9763873704F2FB387078538 /* [CP] Check Pods Manifest.lock */,
+				6E918B301E4CBC5F00C99346 /* Sources */,
+				6E918B311E4CBC5F00C99346 /* Frameworks */,
+				6E918B321E4CBC5F00C99346 /* Resources */,
+				254B33126BD89653F234D3DD /* [CP] Embed Pods Frameworks */,
+				0F918765AFB3011D4DF373F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E918B361E4CBC5F00C99346 /* PBXTargetDependency */,
+			);
+			name = FollowTrackUITests;
+			productName = FollowTrackUITests;
+			productReference = 6E918B341E4CBC5F00C99346 /* FollowTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E918B151E4CBC5F00C99346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luca Soldi";
+				TargetAttributes = {
+					6E918B1C1E4CBC5F00C99346 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22DH8C7LAR;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					6E918B331E4CBC5F00C99346 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22DH8C7LAR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E918B1C1E4CBC5F00C99346;
+					};
+				};
+			};
+			buildConfigurationList = 6E918B181E4CBC5F00C99346 /* Build configuration list for PBXProject "FollowTrack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E918B141E4CBC5F00C99346;
+			productRefGroup = 6E918B1E1E4CBC5F00C99346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E918B1C1E4CBC5F00C99346 /* FollowTrack */,
+				6E918B331E4CBC5F00C99346 /* FollowTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E918B1B1E4CBC5F00C99346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E918B2E1E4CBC5F00C99346 /* LaunchScreen.storyboard in Resources */,
+				6E918B2B1E4CBC5F00C99346 /* Assets.xcassets in Resources */,
+				6E918B261E4CBC5F00C99346 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E918B321E4CBC5F00C99346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F918765AFB3011D4DF373F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FollowTrackUITests/Pods-FollowTrackUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		254B33126BD89653F234D3DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FollowTrackUITests/Pods-FollowTrackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D73892642138AD9FD1AF9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FollowTrack/Pods-FollowTrack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A1EACCB4302E48278C7C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5803EAF89137B0D2EC094E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FollowTrack/Pods-FollowTrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9763873704F2FB387078538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E918B191E4CBC5F00C99346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E65DCA51E521862003BBFF6 /* Trip+CoreDataProperties.swift in Sources */,
+				6EB1B8921E4CC1B6005D409C /* RestApi.swift in Sources */,
+				6E65DCA41E521862003BBFF6 /* Trip+CoreDataClass.swift in Sources */,
+				6EB1B89B1E4CE378005D409C /* UIColor.swift in Sources */,
+				6E0E2CB81E4F3F3400A889CF /* Socket.swift in Sources */,
+				6E6D16C01E4DD231000C82D3 /* FollowMeViewController.swift in Sources */,
+				6E65DCA21E521862003BBFF6 /* Coordinate+CoreDataClass.swift in Sources */,
+				6E65DC8C1E51EDD5003BBFF6 /* MainTableViewController.swift in Sources */,
+				6E0E2CBA1E4F838700A889CF /* FollowPin.swift in Sources */,
+				6E6D16C31E4DFBE8000C82D3 /* Common.swift in Sources */,
+				6E7229181E577C2F003F75B2 /* ChatTableViewCell.swift in Sources */,
+				6EB1B8A01E4DB638005D409C /* UIGraphics.swift in Sources */,
+				6E65DCAA1E526485003BBFF6 /* TripTableViewCell.swift in Sources */,
+				6E65DCA71E5225A3003BBFF6 /* TripsTableViewController.swift in Sources */,
+				6E7229161E577966003F75B2 /* ChatTableViewController.swift in Sources */,
+				6E918B231E4CBC5F00C99346 /* MainViewController.swift in Sources */,
+				6EB1B8A21E4DB947005D409C /* UIButton.swift in Sources */,
+				6ED1C41E1E4E1521007AC351 /* FollowMapViewController.swift in Sources */,
+				6E65DCA31E521862003BBFF6 /* Coordinate+CoreDataProperties.swift in Sources */,
+				6E918B291E4CBC5F00C99346 /* FollowTrack.xcdatamodeld in Sources */,
+				6EB1B8971E4CC2AC005D409C /* Graphics.m in Sources */,
+				6E01C928203360540045DB19 /* TripDetailViewController.swift in Sources */,
+				6E65DC891E51C81C003BBFF6 /* TripEndedViewController.swift in Sources */,
+				6EB1B89D1E4CE3B5005D409C /* String.swift in Sources */,
+				6E6D16C51E4E062D000C82D3 /* FollowerViewController.swift in Sources */,
+				6E72291B1E578322003F75B2 /* ChatViewController.swift in Sources */,
+				6E918B211E4CBC5F00C99346 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E918B301E4CBC5F00C99346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E918B391E4CBC5F00C99346 /* FollowTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E918B361E4CBC5F00C99346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E918B1C1E4CBC5F00C99346 /* FollowTrack */;
+			targetProxy = 6E918B351E4CBC5F00C99346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E918B241E4CBC5F00C99346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E918B251E4CBC5F00C99346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E918B2C1E4CBC5F00C99346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E918B2D1E4CBC5F00C99346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E918B3B1E4CBC5F00C99346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E918B3C1E4CBC5F00C99346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E918B3E1E4CBC5F00C99346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170FDD94574C806BB7B060E7 /* Pods-FollowTrack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 22DH8C7LAR;
+				INFOPLIST_FILE = FollowTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasoldi.FollowTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FollowTrack/FollowTrack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E918B3F1E4CBC5F00C99346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5836C82CF92BD9E524D197B0 /* Pods-FollowTrack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 22DH8C7LAR;
+				INFOPLIST_FILE = FollowTrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasoldi.FollowTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FollowTrack/FollowTrack-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6E918B411E4CBC5F00C99346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400A883FA8BDDC5A9CA5105A /* Pods-FollowTrackUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22DH8C7LAR;
+				INFOPLIST_FILE = FollowTrackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasoldi.FollowTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FollowTrack;
+			};
+			name = Debug;
+		};
+		6E918B421E4CBC5F00C99346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485629CD11D96CB6C561D9F3 /* Pods-FollowTrackUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22DH8C7LAR;
+				INFOPLIST_FILE = FollowTrackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasoldi.FollowTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FollowTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E918B181E4CBC5F00C99346 /* Build configuration list for PBXProject "FollowTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E918B3B1E4CBC5F00C99346 /* Debug */,
+				6E918B3C1E4CBC5F00C99346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E918B3D1E4CBC5F00C99346 /* Build configuration list for PBXNativeTarget "FollowTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E918B3E1E4CBC5F00C99346 /* Debug */,
+				6E918B3F1E4CBC5F00C99346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E918B401E4CBC5F00C99346 /* Build configuration list for PBXNativeTarget "FollowTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E918B411E4CBC5F00C99346 /* Debug */,
+				6E918B421E4CBC5F00C99346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E918B271E4CBC5F00C99346 /* FollowTrack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E918B281E4CBC5F00C99346 /* FollowTrack.xcdatamodel */,
+			);
+			currentVersion = 6E918B281E4CBC5F00C99346 /* FollowTrack.xcdatamodel */;
+			path = FollowTrack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E918B151E4CBC5F00C99346 /* Project object */;
+}
